@@ -16,7 +16,7 @@
   </head>
   <body>
     <!-- Inicio Navbar -->
-      <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+      <nav class="navbar navbar-expand-lg navbar-light sticky-top botonera">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">
             <img src="img/logo1.png" alt="Narcisa Estudio">
@@ -39,7 +39,7 @@
                 <a class="nav-link" href="views/blog.html">Blog</a>
               </li>
               <li class="nav-item">
-                <a class="#contacto">Contactanos</a>
+                <a class="nav-link" href="views/conctacto.html">Contactanos</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="views/Nuestros-Productos.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -96,20 +96,32 @@
     <main>
       <section class="py-3">
         <div class="container-fluid">
+  
+        <!-- Inicio Breadcrumbs -->
+            <nav aria-label="breadcrumb" class="navegacionBreadcrumbs">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+              </ol>
+            </nav>
+        <!-- Fin Breadcrumbs -->
+
         <h1 class="text-centro">Tu casa un Hogar</h1>
+
       </div>
       </section>
+
+
 
       <section class="row bienvenidos__texto  fondoTexto">
         <!-- Texto Presentacion -->
         <h2 class="text-centro">Bienvenidos a Narcisa Estudio</h2>
-        <div class="col-sm-12 col-md-12 col-lg-12">        
+        <div class="col-sm-12 col-md-12 col-lg-12 animacionTextos">        
           <p class="text-centro"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam quidem commodi earum dolorum, possimus, quod illum id eaque dolorem delectus provident, nesciunt! Molestias, illo, delectus velit accusantium perspiciatis saepe voluptates.
           Lorem ipsum dolor sit amet consectetur adipisicing, elit. Dolor impedit unde soluta consequatur ab maxime voluptates ex dolorem, animi repudiandae? Et excepturi facere, blanditiis magni laudantium dolorem eveniet quas, officia.</p>
        </div>
       </section>
 
-      <section class="py-3">
+      <section>
         <div class="container-fluid">
             <div class="row">
                <article class="col-sm-12 col-md-12 col-lg-6">
@@ -123,17 +135,17 @@
                   <label for="floatingTextarea2" class="formularioTexto">Dejanos Tu Mensaje</label>
                 </div>
                 <br>
-                <button type="submit" class="btn botonUno">Enviar</button>
+                <button type="submit" class="btn botonUno transform">Enviar</button>
               </article> 
             </div>
       
-            <div>
+            <div class="row">
               <article class="col-sm-12 col-md-12 col-lg-6">
                 <h3 class="text-centro">Visitanos!</h3>
                 <iframe class="ms-3" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.792946098234!2d-64.19037088424837!3d-31.419830303563725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a32dcf5d747f%3A0x40373220b29140ac!2sPatio%20Olmos%20Shopping!5e0!3m2!1ses-419!2sar!4v1653937795964!5m2!1ses-419!2sar" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
              </article>
           </div>
-      </div> 
+        </div> 
       </section>
    </main>
 
